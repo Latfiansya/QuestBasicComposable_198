@@ -112,7 +112,7 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
             modifier = modifier
                 .height(110.dp)
                 .fillMaxWidth()
-                .background(color = Color.Yellow),
+                .background(color = Color.DarkGray),
             contentAlignment = Alignment.Center
         ) {
             Column {
@@ -139,7 +139,7 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
             modifier = modifier
                 .height(500.dp) // Berdasarkan sumber [25]
                 .fillMaxWidth()
-                .background(color = Color.Cyan), // Berdasarkan sumber [26]
+                .background(color = Color.Gray), // Berdasarkan sumber [26]
             contentAlignment = Alignment.Center // Berdasarkan sumber [27]
         ) {
             Image(

@@ -188,7 +188,12 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
             Image(
                 painter = gambar,
                 contentDescription = null,
-                contentScale = ContentScale.Fit
+                modifier = Modifier
+                    .fillMaxWidth(0.7f) // ukuran proporsional (tidak terlalu besar)
+                    .padding(16.dp)
+                    .clip(RoundedCornerShape(20.dp)) // sudut melengkung
+                    .border(3.dp, Color.White, RoundedCornerShape(20.dp)), // bingkai putih tipis
+                contentScale = ContentScale.Crop
             )
             Text(
                 text = "Roblox",

@@ -197,10 +197,17 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
             )
             Text(
                 text = "Roblox",
-                fontSize = 50.sp, // Berdasarkan sumber [33]
+                fontSize = 32.sp,
                 color = Color.White,
-                fontWeight = FontWeight.Bold, // Berdasarkan sumber [35]
-                fontFamily = FontFamily.Monospace // Berdasarkan sumber [36]
+                fontWeight = FontWeight.ExtraBold,
+                fontFamily = FontFamily.Monospace,
+                modifier = Modifier
+                    .align(Alignment.Center)
+                    .background(
+                        color = Color(0x88000000), // transparan hitam di belakang teks
+                        shape = RoundedCornerShape(12.dp)
+                    )
+                    .padding(horizontal = 12.dp, vertical = 6.dp)
             )
         }
     }

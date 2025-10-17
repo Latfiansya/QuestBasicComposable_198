@@ -207,7 +207,7 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
                         color = Color(0x88000000), // transparan hitam di belakang teks
                         shape = RoundedCornerShape(12.dp)
                     )
-                    .padding(horizontal = 12.dp, vertical = 6.dp)
+                    .padding(horizontal = 12.dp, vertical = 7.dp)
             )
         }
     }

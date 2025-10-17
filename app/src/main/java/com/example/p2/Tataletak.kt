@@ -189,10 +189,10 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
                 painter = gambar,
                 contentDescription = null,
                 modifier = Modifier
-                    .fillMaxWidth(0.7f) // ukuran proporsional (tidak terlalu besar)
-                    .padding(16.dp)
-                    .clip(RoundedCornerShape(20.dp)) // sudut melengkung
-                    .border(3.dp, Color.White, RoundedCornerShape(20.dp)), // bingkai putih tipis
+                    .fillMaxWidth(1f) // ukuran proporsional (tidak terlalu besar)
+                    .padding(10.dp)
+                    .clip(RoundedCornerShape(7.dp)) // sudut melengkung
+                    .border(2.dp, Color.White, RoundedCornerShape(7.dp)), // bingkai putih tipis
                 contentScale = ContentScale.Crop
             )
             Text(

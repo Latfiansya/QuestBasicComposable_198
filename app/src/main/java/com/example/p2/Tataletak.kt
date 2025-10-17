@@ -130,21 +130,47 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
                     modifier = modifier.fillMaxWidth(),
                     horizontalArrangement = Arrangement.SpaceEvenly
                 ) {
-                    Text(text = "Col1 Row1 Komponen1")
-                    Text(text = "Col1 Row1 Komponen2")
-                    Text(text = "Col1 Row1 Komponen3")
+                    Text(
+                        text = "Col1 Row1 Komponen1",
+                        color = Color.White,
+                        fontWeight = FontWeight.SemiBold
+                    )
+                    Text(
+                        text = "Col1 Row1 Komponen2",
+                        color = Color.White,
+                        fontWeight = FontWeight.SemiBold
+                    )
+                    Text(
+                        text = "Col1 Row1 Komponen3",
+                        color = Color.White,
+                        fontWeight = FontWeight.SemiBold
+                    )
                 }
                 Row(
                     modifier = modifier.fillMaxWidth(),
                     horizontalArrangement = Arrangement.SpaceEvenly
                 ) {
-                    Text(text = "Col1 Row2 Komponen1")
-                    Text(text = "Col1 Row2 Komponen2")
-                    Text(text = "Col1 Row2 Komponen3")
+                    Text(
+                        text = "Col1 Row2 Komponen1",
+                        color = Color.LightGray,
+                        fontWeight = FontWeight.Medium
+                    )
+                    Text(
+                        text = "Col1 Row2 Komponen2",
+                        color = Color.LightGray,
+                        fontWeight = FontWeight.Medium
+                    )
+                    Text(
+                        text = "Col1 Row2 Komponen3",
+                        color = Color.LightGray,
+                        fontWeight = FontWeight.Medium
+                    )
                 }
             }
         }
-        Spacer(modifier = Modifier.height(height = 10.dp))
+
+        Spacer(modifier = Modifier.height(height = 12.dp))
+
         Box(
             modifier = modifier
                 .height(500.dp) // Berdasarkan sumber [25]

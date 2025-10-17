@@ -22,6 +22,7 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.compose.ui.graphics.Brush
 
 @Composable
 fun TataletakColumn(modifier: Modifier) {
@@ -107,12 +108,21 @@ fun TataletakRowColumn(modifier: Modifier) {
 @Composable
 fun TataletakBoxColumnRow(modifier: Modifier) {
     val gambar = painterResource(id = R.drawable.roblox) // asumsi nama drawable
-    Column(modifier = modifier) {
+
+    Column(
+        modifier = modifier
+            .fillMaxWidth()
+            .background(Color(0xFFF4F4F4))
+    ) {
         Box(
             modifier = modifier
-                .height(110.dp)
+                .height(120.dp)
                 .fillMaxWidth()
-                .background(color = Color.DarkGray),
+                .background(
+                    brush = Brush.horizontalGradient( // gradasi halus abu ke biru tua
+                        colors = listOf(Color(0xFF333333), Color(0xFF555555))
+                    )
+                ),
             contentAlignment = Alignment.Center
         ) {
             Column {

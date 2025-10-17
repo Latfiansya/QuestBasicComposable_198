@@ -134,17 +134,17 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
                     horizontalArrangement = Arrangement.SpaceEvenly
                 ) {
                     Text(
-                        text = "Col1 Row1 Komponen1",
+                        text = "Home",
                         color = Color.White,
                         fontWeight = FontWeight.SemiBold
                     )
                     Text(
-                        text = "Col1 Row1 Komponen2",
+                        text = "Games",
                         color = Color.White,
                         fontWeight = FontWeight.SemiBold
                     )
                     Text(
-                        text = "Col1 Row1 Komponen3",
+                        text = "Avatar",
                         color = Color.White,
                         fontWeight = FontWeight.SemiBold
                     )
@@ -154,17 +154,17 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
                     horizontalArrangement = Arrangement.SpaceEvenly
                 ) {
                     Text(
-                        text = "Col1 Row2 Komponen1",
+                        text = "Friends",
                         color = Color.LightGray,
                         fontWeight = FontWeight.Medium
                     )
                     Text(
-                        text = "Col1 Row2 Komponen2",
+                        text = "Inventory",
                         color = Color.LightGray,
                         fontWeight = FontWeight.Medium
                     )
                     Text(
-                        text = "Col1 Row2 Komponen3",
+                        text = "Messages",
                         color = Color.LightGray,
                         fontWeight = FontWeight.Medium
                     )

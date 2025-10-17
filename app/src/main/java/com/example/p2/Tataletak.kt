@@ -106,7 +106,7 @@ fun TataletakRowColumn(modifier: Modifier) {
 
 @Composable
 fun TataletakBoxColumnRow(modifier: Modifier) {
-    val gambar = painterResource(id = R.drawable.ic_launcher_background) // asumsi nama drawable
+    val gambar = painterResource(id = R.drawable.roblox) // asumsi nama drawable
     Column(modifier = modifier) {
         Box(
             modifier = modifier
@@ -148,7 +148,7 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
                 contentScale = ContentScale.Fit
             )
             Text(
-                text = "My Image",
+                text = "Roblox",
                 fontSize = 50.sp, // Berdasarkan sumber [33]
                 color = Color.Red,
                 fontWeight = FontWeight.Bold, // Berdasarkan sumber [35]

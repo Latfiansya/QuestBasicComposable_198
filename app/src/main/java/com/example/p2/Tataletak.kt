@@ -173,10 +173,14 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
 
         Box(
             modifier = modifier
-                .height(500.dp) // Berdasarkan sumber [25]
+                .height(500.dp)
                 .fillMaxWidth()
-                .background(color = Color.Gray), // Berdasarkan sumber [26]
-            contentAlignment = Alignment.Center // Berdasarkan sumber [27]
+                .background(
+                    brush = Brush.verticalGradient( // gradasi dari abu terang ke abu gelap
+                        colors = listOf(Color(0xFFE0E0E0), Color(0xFFB0B0B0))
+                    )
+                ),
+            contentAlignment = Alignment.Center
         ) {
             Image(
                 painter = gambar,
